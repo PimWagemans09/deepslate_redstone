@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "redstone",
+  "key": {
+    "#": {
+      "item": "minecraft:redstone_torch"
+    },
+    "I": {
+      "tag": "deepslate_redstone:normal_stone_crafting_materials"
+    },
+    "X": {
+      "item": "minecraft:quartz"
+    }
+  },
+  "pattern": [" # ", "#X#", "III"],
+  "result": {
+    "count": 1,
+    "id": "minecraft:comparator"
+  }
+}
