@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": ["#"],
+  "key": {
+    "#": "#deepslate_redstone:normal_stone_crafting_materials"
+  },
+  "result": {
+    "id": "minecraft:stone_button",
+    "count": 1
+  }
+}

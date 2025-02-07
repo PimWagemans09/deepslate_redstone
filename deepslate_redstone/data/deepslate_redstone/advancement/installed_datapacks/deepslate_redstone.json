@@ -1,0 +1,17 @@
+{
+  "display": {
+    "title": "Deepslate Redstone",
+    "description": "This allows you to craft redstone components with cobbled deepslate and blackstone instead of cobblestone, and deepslate instead of stone",
+    "icon": {
+      "id": "minecraft:cobbled_deepslate"
+    },
+    "show_toast": false,
+    "announce_to_chat": false
+  },
+  "parent": "pim_wagemans:installed_datapacks/root",
+  "criteria": {
+    "trigger": {
+      "trigger": "minecraft:tick"
+    }
+  }
+}
