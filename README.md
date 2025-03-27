@@ -3,7 +3,10 @@
 Deepslate Redstone is a datapack that allows you to craft redstone components with Cobbled Deepslate and Blackstone instead of Cobblestone, and Deepslate instead of Stone
 You can of course still use cobblestone and stone in the crafting recipes but now you can mix in Cobbled Deepslate and Blackstone!
 
-## you can now use cobbled deepslate and blackstone in the following recipes:
+> [!NOTE]
+> On 1.21.3, 1.21.4, and 1.21.5 when you add the datapack during world creation the game may tell you that the datapack whas made for an older version of Minecraft. This datapack is compatible with the newer version so you can ignore this warning
+
+## you can use cobbled deepslate and blackstone in the following recipes:
 
 - dispenser
 - dropper
@@ -11,11 +14,16 @@ You can of course still use cobblestone and stone in the crafting recipes but no
 - observer
 - piston
 
-## you can now use deepslate in the following recipes:
+## you can use deepslate in the following recipes:
 
 - comparator
 - repeater
 - stone button
 
-> [!NOTE]
-> On 1.21.4 when you add the datapack during world creation the game may tell you that the datapack whas made for an older version of Minecraft even if you are using the 1.21.2 to 1.21.4 version of the datapack. But this datapack is compatible with the newer version so you can ignore this warning
+## allow other items to replace (cobble)stone
+
+mods or datapacks can add items to replace cobblestone or stone in redstone recipes by adding them to a specific item tag:
+
+- any items in the item tag `#minecraft:stone_crafting_materials` can replace cobblestone in redstone recipes
+
+- any items in the item tag `#deepslate_redstone:normal_stone_crafting_materials` can replace stone in redstone recipes
